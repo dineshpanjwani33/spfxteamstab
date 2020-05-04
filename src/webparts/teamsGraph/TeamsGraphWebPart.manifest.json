@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "509b44af-b032-4af6-844d-f80b06dd0779",
+  "alias": "TeamsGraphWebPart",
+  "componentType": "WebPart",
+
+  
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart","TeamsTab"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "TeamsGraph" },
+    "description": { "default": "Graph API to get teams" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "TeamsGraph"
+    }
+  }]
+}

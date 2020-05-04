@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "graph-team-apis-client-side-solution",
+    "id": "50604994-06f3-4425-9eb6-c554b6bcc7bc",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Chat.ReadWrite"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadWrite.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.ReadWrite.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "ChatMessage.Send"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Chat.Read"
+      }
+    ]
+  },
+  
+  "paths": {
+    "zippedPackage": "solution/graph-team-apis.sppkg"
+  }
+}
